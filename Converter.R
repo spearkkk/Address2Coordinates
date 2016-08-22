@@ -20,7 +20,7 @@ addressDatas <- as.data.frame(apply(addressDatas, 2, function(x){as.data.frame(g
 # api key & url for query
 urlPre = "https://maps.googleapis.com/maps/api/geocode/json?address="
 urlPost = "&key="
-apiKey = "AIzaSyChQ1kjFv7fGNQcZ7Zet8MompUeb6XQRcQ"
+apiKey = "Your API key"
 
 # initialize longitude and latitude
 long <- numeric()
